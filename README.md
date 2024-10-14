@@ -37,14 +37,6 @@ If you are interested in collaborating, partnering, or learning more about our p
 - Email: [info@abacatech.com](mailto:info@abacatech.com)
 - Website: [www.abacatech.com](http://www.abacatech.com)
 
-## Contributing
-
-We welcome contributions from professionals and enthusiasts alike. Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Thank you for your interest in Abaca Tech!
