@@ -3,13 +3,13 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Blog | Abaca Technology</title>
+        <title>Our Leadership Team | Abaca Technology India Private Limited</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="img/abaca-tech-logo.svg">
+        <link rel="icon" type="image/x-icon" href="img/favicon-180x180.png">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,15 +35,22 @@
 
     <body>
 
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
 
         <!-- Topbar Start -->
         <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
             <div class="row gx-0 align-items-center">
                 <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                     <div class="d-flex flex-wrap">
-                        <a href="#" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Gurugram, Haryana-122102</a>
-                        <a href="tel:+01234567890" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91 9971857977</a>
-                        <a href="mailto:example@gmail.com" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>info@abacatech.com</a>
+                        <a href="" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Gurugram, Haryana-122102</a>
+                        <a href="tel:+91-9971857977" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9971857977</a>
+                        <a href="mailto:info@abacatech.com" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>info@abacatech.com</a>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center text-lg-end">
@@ -62,6 +69,7 @@
         <div class="container-fluid position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0">
+                    <!-- <h1 class="text-primary"><i class="fas fa-search-dollar me-3"></i>Stocker</h1> -->
                     <img src="img/abaca-tech-logo.svg" alt="Logo" class="img-fluid" style="max-width: 250px; max-height: 250px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -127,8 +135,12 @@
                                 <span class="dropdown-toggle">RESOURCES</span>
                             </a>
                             <div class="dropdown-menu m-0">
-                                <a href="webinar.html" class="dropdown-item"><i class="fas fa-video me-2"></i>Webinars</a>
-                                <a href="blog.html" class="dropdown-item"><i class="fas fa-blog me-2"></i>Blog</a>
+                                <a href="drone.html" class="dropdown-item">Our Features</a>
+                                <a href="leadership.html" class="dropdown-item">Our team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="offer.html" class="dropdown-item">Our offer</a>
+                                <a href="Certifications.html" class="dropdown-item">FAQs</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
                         
@@ -137,13 +149,14 @@
                 </div>
             </nav>
 
+
             <!-- Header Start -->
             <div class="container-fluid bg-breadcrumb">
                 <div class="container text-center" style="max-width: 900px;">
-                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Latest News</h4>
+                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Leadership Team</h4>
                     <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active text-primary">Blog</li>
+                        <li class="breadcrumb-item active text-primary">Our Leadership Team</li>
                     </ol>    
                 </div>
             </div>
@@ -152,124 +165,77 @@
         <!-- Navbar & Hero End -->
 
 
-        <!-- Blog Start -->
-        <!-- <div class="container-fluid blog py-5">
+        <!-- Team Start -->
+        <div class="container-fluid team py-5">
             <div class="container py-5">
-                <div class="row g-5 mt-5">
-                    <div class="col-lg-8">
-                        <div class="blog-item mb-5">
-                            <h2 class="mb-3">Hydrogen Fuel Cells in Electric Vehicles</h2>
-                            <div class="d-flex mb-3">
-                                <span class="me-3"><i class="far fa-user text-primary me-2"></i>by Jasbir Singh</span>
-                                <span class="me-3"><i class="far fa-calendar-alt text-primary me-2"></i>August 5, 2024</span>
-                                <span><i class="far fa-folder-open text-primary me-2"></i>Green Projects Info.</span>
+                <!-- <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary text-uppercase">Our Leadership Team</h4>
+                </div> -->
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/Team/SUSHIL-DUBEY.webp" class="img-fluid" alt="">
                             </div>
-                            <a class="btn btn-primary py-2 px-4" href="#">READ MORE <i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="mb-5">
-                            <h2 class="mb-4">Recent Post</h2>
-                            <div class="bg-light p-4">
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="far fa-calendar-alt text-primary me-2"></i>
-                                    <span>Aug 05 2024</span>
-                                </div>
-                                <a class="h5 m-0" href="">Hydrogen Fuel Cells in Electric Vehicles</a>
+                            <div class="team-title text-center">
+                                <h4 class="mb-0">SUSHIL DUBEY</h4>
+                                <p class="mb-0"><strong>Co Founder & Director</strong></p>
+                                <p class="mb-0"><i>Global tech entrepreneur with expertise in defense, energy, and infrastructure across multiple countries.</i></p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.linkedin.com/in/sushil-dubey-06980ba0/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Blog End -->  
-
-        <!-- Blog Start -->
-        <div class="container-fluid blog">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Latest News</h4>
-                    <h3 class="mb-0 mb-4">Hydrogen Fuel Cells in Electric Vehicles</h3>
-                    <p class="mb-0">Hydrogen fuel cells convert hydrogen and oxygen into electricity, powering vehicles with zero emissions. They offer quick refueling and long range.
-                    </p>
-                </div>
-                <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="blog-item p-4">
-                        <div class="blog-img mb-4">
-                            <img src="img/Hydrogen Fuel Cells in Electric Vehicles.jpg" class="img-fluid w-100 rounded" alt="">
-                            <div class="blog-title">
-                                <a href="#" class="btn">Green Projects Info.</a>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/Team/rahul-member-img.webp" class="img-fluid" alt="">
                             </div>
-                        </div>
-                        <a href="#" class="h4 d-inline-block mb-3">Hydrogen Fuel Cells in Electric Vehicles</a>
-                        <p class="mb-4">Hydrogen fuel cells convert hydrogen and oxygen into electricity, powering electric vehicles with zero emissions. They offer quick refueling and longer ranges, making them a promising alternative for sustainable transportation.
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <img src="img/jasbir_singh.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
-                            <div class="ms-3">
-                                <h5>Jasbir Singh</h5>
-                                <p class="mb-0">August 5, 2024</p>
+                            <div class="team-title text-center">
+                                <h4 class="mb-0">Rahul Shivani</h4>
+                                <p class="mb-0"><strong>President</strong></p>
+                                <p class="mb-0"><i>Seasoned sales leader driving transformative growth through innovative strategies and strong relationships.</i></p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.linkedin.com/in/rahulshivani/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="blog-item p-4">
-                        <div class="blog-img mb-4">
-                            <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="">
-                            <div class="blog-title">
-                                <a href="#" class="btn">Non-Dividend Stocks</a>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/Team/subodh.webp" class="img-fluid" alt="">
                             </div>
-                        </div>
-                        <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
-                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam suscipit error corporis accusamus labore....
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
-                            <div class="ms-3">
-                                <h5>Admin</h5>
-                                <p class="mb-0">October 9, 2025</p>
+                            <div class="team-title text-center">
+                                <h4 class="mb-0">Commodore(Rtd.) Sudodh Tiwari</h4>
+                                <p class="mb-0"><strong>Chief Technical Officer</strong></p>
+                                <p class="mb-0"><i>Naval tech expert: electronics warfare, sonar, drones, procurement for Indian Navy.</i></p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="blog-item p-4">
-                        <div class="blog-img mb-4">
-                            <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="">
-                            <div class="blog-title">
-                                <a href="#" class="btn">Dividend Stocks</a>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/Team/Photo.webp" class="img-fluid" alt="">
                             </div>
-                        </div>
-                        <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
-                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam suscipit error corporis accusamus labore....
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
-                            <div class="ms-3">
-                                <h5>Admin</h5>
-                                <p class="mb-0">October 9, 2025</p>
+                            <div class="team-title text-center">
+                                <h4 class="mb-0">AMBER DUBEY</h4>
+                                <p class="mb-0"><strong>Director - Business Development</strong></p>
+                                <p class="mb-0"><i>Tech leader: strategy expert, partnership builder, government liaison specialist.</i></p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="https://www.linkedin.com/in/amberdubey/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="blog-item p-4">
-                        <div class="blog-img mb-4">
-                            <img src="img/service-4.jpg" class="img-fluid w-100 rounded" alt="">
-                            <div class="blog-title">
-                                <a href="#" class="btn">Non-Dividend Stocks</a>
-                            </div>
-                        </div>
-                        <a href="#" class="h4 d-inline-block mb-3">Options Trading Business?</a>
-                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aut aliquam suscipit error corporis accusamus labore....
-                        </p>
-                        <div class="d-flex align-items-center">
-                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="">
-                            <div class="ms-3">
-                                <h5>Admin</h5>
-                                <p class="mb-0">October 9, 2025</p>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
-        <!-- Blog End -->
+        <!-- Team End -->
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
@@ -278,6 +244,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <a href="index.html" class="p-0">
+                                <!-- <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Stocker</h4> -->
                                 <img src="img/abaca-tech-logo.svg" alt="Logo" class="img-fluid" style="max-width: 250px; max-height: 250px;">
                             </a>
                             <p class="mb-4">Abaca Technology has partnered with various Technology companies we bring all products in one single platform to use common resource and capability. We always believe in building Eco-system and work together to make market entry of new products.</p>
@@ -294,21 +261,23 @@
                     <div class="col-md-6 col-lg-6 col-xl-2">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Quick Links</h4>
-                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="blog.html"><i class="fas fa-angle-right me-2"></i> Blog</a>
-                            <a href="webinar.html"><i class="fas fa-angle-right me-2"></i> Webinar</a>
-                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact us</a>
-                            
-
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item">
-                            <h4 class="text-white mb-4">Support</h4>   
-                            <a href="leadership.html"><i class="fas fa-angle-right me-2"></i> Our Leadership Team</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <h4 class="text-white mb-4">Support</h4>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href="Certifications.html"><i class="fas fa-angle-right me-2"></i> FAQ</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
@@ -341,6 +310,9 @@
                         <span class="text-body"><a href="#" class=" text-white">Copyright <i class="fas fa-copyright text-light me-2"> 2024</i>Abaca Technology India Private Limited, All right reserved.</a></span>
                     </div>
                     <div class="col-md-6 text-center text-md-end text-body">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                         <span class="text-white">Designed and Developed</span> <a class="text-white" href="">by Webority Technologies</a> 
                     </div>
                 </div>
